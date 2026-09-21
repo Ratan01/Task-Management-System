@@ -1,0 +1,25 @@
+body {
+  background: #f5f7fa;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.table-responsive {
+  max-height: 60vh;
+}
+
+.alert-danger {
+  border-radius: 0.5rem;
+}
+
+button.btn {
+  border-radius: 0.5rem;
+}

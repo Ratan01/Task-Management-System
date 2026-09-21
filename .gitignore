@@ -1,0 +1,124 @@
+# ================================
+
+# Java / Maven
+
+# ================================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# ================================
+
+# Spring Boot
+
+# ================================
+
+# Keep application.yml/application.properties in Git when they
+
+# contain only non-sensitive configuration and environment-variable
+
+# placeholders.
+
+# Ignore local/profile-specific configuration
+
+**/src/main/resources/application-local.yml
+**/src/main/resources/application-local.yaml
+**/src/main/resources/application-local.properties
+
+**/src/main/resources/application-prod.yml
+**/src/main/resources/application-prod.yaml
+**/src/main/resources/application-prod.properties
+
+**/src/main/resources/application-dev-local.yml
+**/src/main/resources/application-dev-local.yaml
+**/src/main/resources/application-dev-local.properties
+
+# ================================
+
+# Environment / Secrets
+
+# ================================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.p12
+*.jks
+
+secrets/
+secret/
+credentials/
+
+# ================================
+
+# IntelliJ IDEA
+
+# ================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ================================
+
+# VS Code
+
+# ================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ================================
+
+# Logs
+
+# ================================
+
+*.log
+logs/
+
+# ================================
+
+# OS files
+
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+
+# Node / React
+
+# ================================
+
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+
+# ================================
+
+# React environment files
+
+# ================================
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
