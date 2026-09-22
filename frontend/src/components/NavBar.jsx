@@ -20,6 +20,8 @@ export default function NavBar() {
             <>
               <Link className="nav-link" to="/admin/users">Users</Link>
               <Link className="nav-link" to="/admin/tasks">All Tasks</Link>
+              <Link className="nav-link" to="/admin/audit">Audit Log</Link>
+              <Link className="nav-link" to="/admin/analytics">Analytics</Link>
             </>
           )}
         </div>
