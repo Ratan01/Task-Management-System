@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import api from '../api/axios.js';
+import api from '../api/axios.jsx';
 import { setToken } from '../auth/auth.js';
 
 export default function Login() {

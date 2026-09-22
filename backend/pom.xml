@@ -29,6 +29,8 @@
         <module>user-service</module>
         <module>task-service</module>
         <module>notification-service</module>
+        <module>audit-service</module>
+        <module>analytics-service</module>
     </modules>
 
     <dependencyManagement>
